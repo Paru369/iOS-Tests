@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6D6BD4E029282FA7009A766A"
-               BuildableName = "iOS-Tests.app"
-               BlueprintName = "iOS-Tests"
-               ReferencedContainer = "container:iOS-Tests.xcodeproj">
+               BuildableName = "TestesQualidadeiOS.app"
+               BlueprintName = "TestesQualidadeiOS"
+               ReferencedContainer = "container:TestesQualidadeiOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6D6BD4F629282FAA009A766A"
-               BuildableName = "iOS-TestsTests.xctest"
-               BlueprintName = "iOS-TestsTests"
-               ReferencedContainer = "container:iOS-Tests.xcodeproj">
+               BuildableName = "TestesQualidadeiOSTests.xctest"
+               BlueprintName = "TestesQualidadeiOSTests"
+               ReferencedContainer = "container:TestesQualidadeiOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,10 +46,10 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6D2FF9A929288B5A00B32E50"
-               BuildableName = "iOS-TestsUITests.xctest"
-               BlueprintName = "iOS-TestsUITests"
-               ReferencedContainer = "container:iOS-Tests.xcodeproj">
+               BlueprintIdentifier = "6D2FF98A2928773F00B32E50"
+               BuildableName = "TestesQualidadeiOSUITests.xctest"
+               BlueprintName = "TestesQualidadeiOSUITests"
+               ReferencedContainer = "container:TestesQualidadeiOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6D6BD4E029282FA7009A766A"
-            BuildableName = "iOS-Tests.app"
-            BlueprintName = "iOS-Tests"
-            ReferencedContainer = "container:iOS-Tests.xcodeproj">
+            BuildableName = "TestesQualidadeiOS.app"
+            BlueprintName = "TestesQualidadeiOS"
+            ReferencedContainer = "container:TestesQualidadeiOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6D6BD4E029282FA7009A766A"
-            BuildableName = "iOS-Tests.app"
-            BlueprintName = "iOS-Tests"
-            ReferencedContainer = "container:iOS-Tests.xcodeproj">
+            BuildableName = "TestesQualidadeiOS.app"
+            BlueprintName = "TestesQualidadeiOS"
+            ReferencedContainer = "container:TestesQualidadeiOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
