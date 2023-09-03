@@ -29,7 +29,6 @@
 		6D6BD5172928333A009A766A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD5162928333A009A766A /* Extensions.swift */; };
 		6D6BD51929283D07009A766A /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD51829283D07009A766A /* CourseModel.swift */; };
 		6D6BD52729285999009A766A /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD52629285999009A766A /* Services.swift */; };
-		77084610BE05D841A46B9D5C /* Pods_TestesQualidadeiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7107246DB6680ED3C926B2 /* Pods_TestesQualidadeiOS.framework */; };
 		C24634D8892EAEEC39017EA6 /* Pods_TestesQualidadeiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEA4758D74A309763E1D658 /* Pods_TestesQualidadeiOSTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B9527B1E4FA546DB120FD48 /* Pods-TestesQualidadeiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestesQualidadeiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TestesQualidadeiOSTests/Pods-TestesQualidadeiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		416804862AA4AD23007F4D15 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		6D2FF9962928796100B32E50 /* ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsTests.swift; sourceTree = "<group>"; };
 		6D2FF99829287C6600B32E50 /* CourseModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModelTests.swift; sourceTree = "<group>"; };
@@ -78,10 +76,6 @@
 		6D6BD5162928333A009A766A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6D6BD51829283D07009A766A /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
 		6D6BD52629285999009A766A /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
-		7FB6F5E133DA80B373C57720 /* Pods-TestesQualidadeiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestesQualidadeiOS.release.xcconfig"; path = "Target Support Files/Pods-TestesQualidadeiOS/Pods-TestesQualidadeiOS.release.xcconfig"; sourceTree = "<group>"; };
-		9429E2A377FB5AF3C536D731 /* Pods-TestesQualidadeiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestesQualidadeiOSTests.release.xcconfig"; path = "Target Support Files/Pods-TestesQualidadeiOSTests/Pods-TestesQualidadeiOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		AC7107246DB6680ED3C926B2 /* Pods_TestesQualidadeiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestesQualidadeiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9130DF1B7D00E5F32BD15D3 /* Pods-TestesQualidadeiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestesQualidadeiOS.debug.xcconfig"; path = "Target Support Files/Pods-TestesQualidadeiOS/Pods-TestesQualidadeiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FBEA4758D74A309763E1D658 /* Pods_TestesQualidadeiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestesQualidadeiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,7 +91,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77084610BE05D841A46B9D5C /* Pods_TestesQualidadeiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,17 +105,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		32E430137E5B2524CBB5E874 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D9130DF1B7D00E5F32BD15D3 /* Pods-TestesQualidadeiOS.debug.xcconfig */,
-				7FB6F5E133DA80B373C57720 /* Pods-TestesQualidadeiOS.release.xcconfig */,
-				1B9527B1E4FA546DB120FD48 /* Pods-TestesQualidadeiOSTests.debug.xcconfig */,
-				9429E2A377FB5AF3C536D731 /* Pods-TestesQualidadeiOSTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		416804882AA4B075007F4D15 /* TestesQualidadeiOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,7 +131,6 @@
 				6D6BD4FA29282FAA009A766A /* Tests */,
 				6D2FF9AB29288B5A00B32E50 /* UserInterface-Tests */,
 				6D6BD4E229282FA7009A766A /* Products */,
-				32E430137E5B2524CBB5E874 /* Pods */,
 				6F3A9E9A656557E832EE6D7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -200,7 +181,6 @@
 		6F3A9E9A656557E832EE6D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AC7107246DB6680ED3C926B2 /* Pods_TestesQualidadeiOS.framework */,
 				FBEA4758D74A309763E1D658 /* Pods_TestesQualidadeiOSTests.framework */,
 			);
 			name = Frameworks;
@@ -633,7 +613,6 @@
 		};
 		6D6BD50C29282FAA009A766A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9130DF1B7D00E5F32BD15D3 /* Pods-TestesQualidadeiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -666,7 +645,6 @@
 		};
 		6D6BD50D29282FAA009A766A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FB6F5E133DA80B373C57720 /* Pods-TestesQualidadeiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -699,7 +677,6 @@
 		};
 		6D6BD50F29282FAA009A766A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B9527B1E4FA546DB120FD48 /* Pods-TestesQualidadeiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -723,7 +700,6 @@
 		};
 		6D6BD51029282FAA009A766A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9429E2A377FB5AF3C536D731 /* Pods-TestesQualidadeiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
