@@ -123,22 +123,31 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		6D2FF9AB29288B5A00B32E50 /* TestesQualidadeiOSUITests */ = {
+		416804882AA4B075007F4D15 /* TestesQualidadeiOS */ = {
+			isa = PBXGroup;
+			children = (
+				6D6BD4F229282FA9009A766A /* Info.plist */,
+			);
+			path = TestesQualidadeiOS;
+			sourceTree = "<group>";
+		};
+		6D2FF9AB29288B5A00B32E50 /* UserInterface-Tests */ = {
 			isa = PBXGroup;
 			children = (
 				6D2FF9AC29288B5A00B32E50 /* TestesQualidadeiOSUITests.swift */,
 				6D2FF9AE29288B5A00B32E50 /* TestesQualidadeiOSUITestsLaunchTests.swift */,
 				6D2FF9B529288BA800B32E50 /* ViewControllerUITests.swift */,
 			);
-			path = TestesQualidadeiOSUITests;
+			path = "UserInterface-Tests";
 			sourceTree = "<group>";
 		};
 		6D6BD4D829282FA7009A766A = {
 			isa = PBXGroup;
 			children = (
-				6D6BD4E329282FA7009A766A /* TestesQualidadeiOS */,
-				6D6BD4FA29282FAA009A766A /* TestesQualidadeiOSTests */,
-				6D2FF9AB29288B5A00B32E50 /* TestesQualidadeiOSUITests */,
+				416804882AA4B075007F4D15 /* TestesQualidadeiOS */,
+				6D6BD4E329282FA7009A766A /* APP-iOS-Tests */,
+				6D6BD4FA29282FAA009A766A /* Tests */,
+				6D2FF9AB29288B5A00B32E50 /* UserInterface-Tests */,
 				6D6BD4E229282FA7009A766A /* Products */,
 				32E430137E5B2524CBB5E874 /* Pods */,
 				6F3A9E9A656557E832EE6D7B /* Frameworks */,
@@ -155,7 +164,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6D6BD4E329282FA7009A766A /* TestesQualidadeiOS */ = {
+		6D6BD4E329282FA7009A766A /* APP-iOS-Tests */ = {
 			isa = PBXGroup;
 			children = (
 				6D6BD4E429282FA7009A766A /* AppDelegate.swift */,
@@ -169,12 +178,11 @@
 				6D6BD4EA29282FA7009A766A /* Main.storyboard */,
 				6D6BD4ED29282FA9009A766A /* Assets.xcassets */,
 				6D6BD4EF29282FA9009A766A /* LaunchScreen.storyboard */,
-				6D6BD4F229282FA9009A766A /* Info.plist */,
 			);
-			path = TestesQualidadeiOS;
+			path = "APP-iOS-Tests";
 			sourceTree = "<group>";
 		};
-		6D6BD4FA29282FAA009A766A /* TestesQualidadeiOSTests */ = {
+		6D6BD4FA29282FAA009A766A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				6D6BD4FB29282FAA009A766A /* TestesQualidadeiOSTests.swift */,
@@ -186,7 +194,7 @@
 				6D2FF9A22928865300B32E50 /* ServicesDummy.swift */,
 				6D2FF9A42928897900B32E50 /* ViewControllerSpecs.swift */,
 			);
-			path = TestesQualidadeiOSTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		6F3A9E9A656557E832EE6D7B /* Frameworks */ = {
